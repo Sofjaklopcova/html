@@ -1,55 +1,72 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabulka HTML</title>
 </head>
+
 <body>
     <header>
         <h1>Tabulky v HTML</h1>
     </header>
-   
+
     <main>
         <h2>Slavna osobnost: Marie Čermínová (Toyen) </h2>
         <table border="1">
-           <caption>Vizitka slavné osobnosti</caption>  
-           <thead>
-               <tr>
-                   <th>Portrét</th>
-                   <th colspan="2">Základní údaje</th>
-                   <th>Významné činy</th>
-               </tr>
+            <caption>Vizitka slavné osobnosti</caption>
+            <thead>
+                <tr>
+                    <th>Portrét</th>
+                    <th colspan="2">Základní údaje</th>
+                    <th>Významné činy</th>
+                </tr>
             </thead>
             <tbody>
                 <tr>
                     <td rowspan="3"><img src="img/toylen.jpg" alt="Marie Čermínová"></td>
-                    <td colspan="2">Jméno a Příjmení</td>
-                    <td rowspan="4">Díla</td>
+                    <td colspan="2">Marie Čermínová</td>
+                    <td rowspan="4">
+                        <img src="img/spici.jpg" alt="spíci">
+                        Spící; r. 1937;
+                        olej na plátně; 81 × 100 cm;
+                        cena: 23 310 000 Kč
+                        <img src="img/smutny-den.jpg" alt="smutný den">
+                        Smutný den; r. 1942;
+                        olej na plátně; 60 x 92 cm;
+                        cena: 13 200 000 Kč
+                    </td>
                 </tr>
                 <tr>
-                    <td>Narození</td>
-                    <td>Úmrtí</td>
+                    <td>21. září 1902</td>
+                    <td>9. listoadu 1980</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" colspan="2">Stručná charakteristika</td>
+                    <td rowspan="2" colspan="2"> Narodila se na Smíchově (dnes Praha-Smíchov). Byla česko-francouzská
+                        malířka, jedna z představitelek evropského
+                        surrealismu. Patří mezi nejvýznamnější a nejsvobodnější tvůrčí osobnosti umělecké avantgardy
+                        první poloviny 20. století.</td>
                 </tr>
                 <tr>
-                    <td>Popisek fotky</td>
+                    <td>Toyen v roce 1930</td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="4">Odkaz na wikipedii</td>
+                    <td colspan="4">
+                        <a href="https://cs.wikipedia.org/wiki/Toyen">Marie Č. wikipedie</a>
+                    </td>
                 </tr>
             </tfoot>
-        
+
         </table>
     </main>
-   
+
     <footer>
 
     </footer>
 </body>
+
 </html>
