@@ -1,0 +1,27 @@
+table{
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+}
+table{ 
+    width: 50%;
+}
+
+h1{
+    background-color: ;
+}
+
+dt {
+   font-weight: 800;
+   font-size: 1em;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+dd {
+    font-style: italic;
+    margin-top: 10px;
+   
+
+}
+div {
+    background-image: url(../img/pozadi.png);
+  }
