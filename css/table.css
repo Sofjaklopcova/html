@@ -1,9 +1,10 @@
 table{
-    border: 1px solid blueviolet;
-    border-collapse: collapse;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: separate ;
 }
 table{ 
     width: 50%;
+    margin-left: 20%;
 }
 
 h1{
@@ -15,13 +16,20 @@ dt {
    font-size: 1em;
    margin-top: 10px;
    margin-left: 20px;
+   color: #3339ee ;
 }
 dd {
     font-style: italic;
     margin-top: 10px;
-   
+    
 
 }
-div {
-    background-image: url(../img/pozadi.png);
-  }
+tr{
+    background-color:  #b9bcf8ad;
+}
+h2{
+    margin-left: 20%;
+}
+dl{
+    margin-left: 20%;
+}

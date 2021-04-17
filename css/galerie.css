@@ -11,22 +11,24 @@ div.gallery {
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid rgb(255, 249, 249);
   }
   
   div.gallery img {
     width: 100%;
     height: auto;
+    border-radius: 5px;
   }
   
   div.desc {
     padding: 15px;
     text-align: center;
+    background-color: burlywood;
   }
 
-  div.clear {
-      clear: both;
-  }
+ .clear {
+   clear: both;
+ }
   @media only screen and (max-widht: 1200px){
     main {
         width: 90%;   
@@ -47,4 +49,4 @@ div.gallery {
     div.gallery {
       width: 100%;
     }
- 
+

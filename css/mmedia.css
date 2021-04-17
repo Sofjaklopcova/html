@@ -1,7 +1,13 @@
-img{
-    margin-right: ;
-}
 
-h2{
-    color: blueviolet;
+
+
+figure{
+    margin-left: 40%  ;
+    border: 3px solid black;
+    outline: #3339ee83  solid  12px;
+}
+iframe{
+    margin-left: 40%;
+    border: 3px solid black; 
+    outline: #3339ee83  solid  12px;
 }
