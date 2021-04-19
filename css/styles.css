@@ -3,24 +3,34 @@ body{
    /* background-image: url(../img/fon.png); */
     
    background-image: url(../img/Pozadi.png);
-}
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
 
 h1{
     background-color: #3339eebd  !important;
     color: #ecdfcf;
     text-align: center;
+    text-shadow: 1px 1px 2px rgb(28, 16, 7), 0 0 25px blue, 0 0 5px darkblue;
 
   }
 
   h2{
-    color: #e6c79f;
-    text-shadow: 6px 4px 2px #1c23f3bd ;
+    color: #f5f1eb;
+    text-shadow: 1px 1px 2px rgb(28, 16, 7), 0 0 25px blue, 0 0 5px darkblue;
+
+    
    
   }
-  }
+  
       /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgb(209, 39, 39);
+    background-color: rgb(170, 187, 209);
     overflow: hidden;
   }
   
@@ -44,6 +54,7 @@ h1{
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #383edd;
+    border-radius: 2px;
     color: rgb(236, 235, 235);
   }
 

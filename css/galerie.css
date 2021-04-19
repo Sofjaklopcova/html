@@ -1,17 +1,20 @@
 main{
     width: 80%;
     margin: 0 auto;
-    background-color: cadetblue;
+    border-radius: 2px;
+     border:  #383dddbe solid 15px; 
+    outline:  #7478f783 double  12px;
 }
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(34, 18, 7);
+    border-radius: 4px;
     float: left;
     width: 23%;
   }
   
   div.gallery:hover {
-    border: 1px solid rgb(255, 249, 249);
+    border: 1px solid rgb(0, 0, 0);
   }
   
   div.gallery img {

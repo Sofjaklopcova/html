@@ -1,13 +1,26 @@
 
 
 
-figure{
+video, img{
     margin-left: 40%  ;
-    border: 3px solid black;
-    outline: #3339ee83  solid  12px;
+   border:  #3339ee83 solid 10px; 
+    outline:  #7478f783 double  15px;
+    border-radius: 3px;
+
+   
 }
+audio{
+    border-radius: 40px;
+    margin-left: 40%  ;
+    border:  #3339ee83 solid 10px; 
+     outline:  #7478f783 double  15px;
+    
+}
+
 iframe{
     margin-left: 40%;
-    border: 3px solid black; 
-    outline: #3339ee83  solid  12px;
+    border:  #3339ee83 solid 10px; 
+    outline:  #7478f783 double  15px;
+    border-radius: 3px;
 }
+
