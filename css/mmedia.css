@@ -23,4 +23,6 @@ iframe{
     outline:  #7478f783 double  15px;
     border-radius: 3px;
 }
-
+figcaption{
+    color: #070c61;
+}
